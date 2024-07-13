@@ -1,0 +1,139 @@
+<html><head><base href="https://soundliterature.com/"><title>عندما ترى الصوت | Sound Literature</title>
+<meta charset="utf-8">
+<style>
+body {
+  font-family: 'Amiri', serif;
+  background: linear-gradient(135deg, #1c1c1c 0%, #2a2a2a 100%);
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  padding: 50px 0;
+  background: linear-gradient(45deg, #4a4a4a, #2a2a2a);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #ffd700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+nav {
+  margin-top: 20px;
+}
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ffd700;
+}
+.featured {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.featured-item {
+  width: 30%;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.featured-item:hover {
+  transform: translateY(-10px);
+}
+.featured-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.featured-item h3 {
+  margin-top: 15px;
+  color: #ffd700;
+}
+.featured-item p {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+.audio-player {
+  width: 100%;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  background: #1c1c1c;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>عندما ترى الصوت</h1>
+    <nav>
+      <a href="#featured">المختارات</a>
+      <a href="#about">عن الموقع</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+  </header>
+  
+  <section id="featured" class="featured">
+    <div class="featured-item">
+      <img src="https://images.unsplash.com/photo-1516223725307-6f76b9ec8742?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;h=300&amp;q=80" alt="صورة لامرأة تهمس في الظلام، تعكس قصيدة 'صوت مرئي'" width="400" height="300">
+      <h3>صوت مرئي</h3>
+      <p>استمع الى الشاعر أبو شامة المغربي وهو يلقي قصيدته الجديدة التي تجسد الأصوات في صور ذهنية مرئية</p>
+      <audio class="audio-player" controls="">
+        <source src="visible_sound.mp3" type="audio/mpeg">
+        متصفحك لا يدعم عنصر الصوت.
+      </audio>
+    </div>
+    <div class="featured-item">
+      <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;h=300&amp;q=80" alt="صورة لرجل مسن يروي قصة، تجسد رواية 'صدى الماضي'" width="400" height="300">
+      <h3>صدى الماضي</h3>
+      <p>رواية صوتية جديدة للكاتب أحمد السعيد تأخذك في رحلة عبر الزمن</p>
+      <audio class="audio-player" controls="">
+        <source src="echoes_of_past.mp3" type="audio/mpeg">
+        متصفحك لا يدعم عنصر الصوت.
+      </audio>
+    </div>
+    <div class="featured-item">
+      <img src="https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;h=300&amp;q=80" alt="صورة لمجموعة من الناس في شارع مزدحم، تمثل 'أصوات المدينة'" width="400" height="300">
+      <h3>أصوات المدينة</h3>
+      <p>تجربة صوتية فريدة تجمع بين الشعر والموسيقى لتصور حياة المدينة النابضة</p>
+      <audio class="audio-player" controls="">
+        <source src="city_sounds.mp3" type="audio/mpeg">
+        متصفحك لا يدعم عنصر الصوت.
+      </audio>
+    </div>
+  </section>
+  
+  <section id="about">
+    <h2>عن الموقع</h2>
+    <p>موقع "عندما ترى الصوت" هو منصة أدبية فريدة تجمع بين جمال الكلمة المكتوبة وسحر الصوت. نقدم لكم مجموعة متنوعة من الأعمال الأدبية الصوتية، من القصائد الشعرية إلى الروايات الصوتية والتجارب الأدبية الفريدة. هدفنا هو خلق تجربة غنية للمستمعين، حيث يمكنهم الاستمتاع بالأدب بطريقة جديدة ومبتكرة.</p>
+  </section>
+  
+  <section id="contact">
+    <h2>اتصل بنا</h2>
+    <p>نرحب بتواصلكم واقتراحاتكم. يمكنكم مراسلتنا على البريد الإلكتروني: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5d34333b321d2e32283339313429382f3c29282f38733e3230">[email&#160;protected]</a></p>
+  </section>
+  
+  <footer>
+    <p>جميع الحقوق محفوظة © 2023 عندما ترى الصوت</p>
+  </footer>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body></html>
